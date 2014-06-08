@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+	<info organisation="com.steelhouse.honeycomb" module="redirector" revision="0.1.5.0" />
+	<dependencies>
+		<dependency org="com.codahale" name="jerkson_2.9.1" rev="0.5.0" />
+		<dependency org="org.scala-lang" name="scala-library" rev="2.9.2" />
+		<dependency org="com.twitter" name="finagle-http" rev="5.1.0" />
+		<dependency org="com.twitter" name="cassie-core" rev="0.22.1">
+			<exclude org="org.slf4j" />
+		</dependency>
+		<dependency org="org.clapper" name="argot_2.9.1" rev="0.3.8" />
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" />
+		<dependency org="org.slf4j" name="slf4j-jdk14" rev="1.6.0" />
+	</dependencies>
+</ivy-module>
